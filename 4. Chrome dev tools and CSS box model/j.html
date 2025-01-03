@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .u {
+            color: white;
+            background-color: green;
+            padding: 5px 10px 5px 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .u:hover {
+            box-shadow: 1px 1px 1px black;
+            transition: 0.5s;
+        }
+        .u:active {
+            box-shadow: none;
+            transform: translate(5px,5px);
+            transition: 0s;
+        }
+    </style>
+    <button class="u">Shadow</button>
+</body>
+</html>
